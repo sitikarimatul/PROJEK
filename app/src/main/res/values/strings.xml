@@ -1,0 +1,16 @@
+<resources>
+  <string name="app_name"></string>
+  <string-array name="numbers">
+    <item>Jakarta,Indonesia  (JKTC)</item>
+    <item>Surabaya,Indonesia (SUBC)</item>
+    <item>Medan,Indonesia    (MESC)</item>
+    <item>Makassar,Indonesia (UPGC)</item>
+    <item>Yogyakarta,Indonesia  (JOGC)</item>
+    <item>Denpasar-Bali,Indonesia  (DPSC)</item>
+    <item>Padang,Indonesia  (PDGC)</item>
+    <item>Palembang,Indonesia  (PLMC)</item>
+    <item>Banjarmasin,Indonesia (BDJC)</item>
+    <item>Pontianak,Indonesia  (PNKC)</item>
+
+  </string-array>
+</resources>

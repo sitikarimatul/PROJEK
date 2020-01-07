@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center"
+  tools:context=".registrasiActivity"
+  android:background="#e1faf5">
+
+  <!--  <ImageView-->
+  <!--    android:layout_width="100dp"-->
+  <!--    android:layout_height="100dp"-->
+  <!--    android:src="@drawable/teamwork" />-->
+
+  <LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="580dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/rounded_background"
+    >
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edtNama"
+      android:hint="Nama Lengkap"
+      android:inputType="textAutoComplete"
+      android:drawableRight="@drawable/ic_action_name"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edtAlamat"
+      android:hint="Alamat"
+      android:inputType="textAutoComplete"
+      android:drawableRight="@drawable/ic_action_name"/>
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edtTl"
+      android:hint="Tempat Lahir"
+      android:inputType="textAutoComplete"
+      android:drawableRight="@drawable/ic_action_name"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edtTglL"
+      android:hint="Tanggal Lahir"
+      android:inputType="textAutoComplete"
+      android:drawableRight="@drawable/ic_pw"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edtUsia"
+      android:hint="Usia"
+      android:inputType="textAutoComplete"
+      android:drawableRight="@drawable/ic_pw"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edtNoTP"
+      android:hint="Nomor Telepon"
+      android:inputType="textAutoComplete"
+      android:drawableRight="@drawable/ic_action_name"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edtKode"
+      android:hint="Kode Pos"
+      android:inputType="textAutoComplete"
+      android:drawableRight="@drawable/ic_action_name"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edtEmail"
+      android:hint="Email"
+      android:inputType="textAutoComplete"
+      android:drawableRight="@drawable/ic_action_name"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edtPassword"
+      android:hint="Password"
+      android:inputType="textPassword"
+      android:drawableRight="@drawable/ic_action_name"/>
+
+    <Button
+      android:id="@+id/btnKirim"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="6dp"
+      android:background="@drawable/rounded_background"
+      android:text="Daftar" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:layout_marginTop="5dp">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah punya akun?   "/>
+
+      <Button
+        android:id="@+id/btnLinkLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Masuk disini" />
+
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

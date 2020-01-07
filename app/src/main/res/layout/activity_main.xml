@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:layout_width="399dp"
+    android:layout_height="730dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginBottom="50dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/putih">
+
+    <ImageView
+      android:layout_width="120dp"
+      android:layout_height="80dp"
+      android:src="@drawable/aeroplane" />
+
+    <LinearLayout
+      android:layout_width="350dp"
+      android:layout_height="550dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginRight="16dp"
+      android:background="@drawable/rounded_background"
+      android:gravity="center"
+      android:backgroundTint="@color/tint"
+      android:orientation="vertical">
+
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dari"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="15sp"/>
+
+      <Spinner
+        android:id="@+id/spdari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ke"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="15sp"/>
+
+      <Spinner
+        android:id="@+id/spke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Berangkat"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="15sp"/>
+
+      <EditText
+        android:id="@+id/etdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_date"
+         />
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pulang"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="15sp"/>
+
+      <EditText
+        android:id="@+id/etdate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_date"/>
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dewasa"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="15sp"/>
+
+      <Spinner
+        android:id="@+id/spdewasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anak"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="15sp"/>
+
+      <Spinner
+        android:id="@+id/spanak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bayi"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="15sp"/>
+
+      <Spinner
+        android:id="@+id/spbayi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas Kabin"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="15sp"/>
+
+      <Spinner
+        android:id="@+id/spkelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <Button
+        android:id="@+id/btnMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/rounded_background"
+        android:text="Cari Penerbangan" />
+
+
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+
